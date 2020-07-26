@@ -1,9 +1,9 @@
-# Álan Crístoffer's Repo
+# Álan Crístoffer' Repo
 
-## How do I install these formulae?
-`brew install acristoffers/repo/<formula>`
+To install the formulas on this repository:
 
-Or `brew tap acristoffers/repo` and then `brew install <formula>`.
-
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew tap acristoffers/repo
+brew install moirai
+brew cask install moirai
+```
