@@ -12,7 +12,7 @@ class Moirai < Formula
   depends_on 'snap7'
 
   def install
-    python3 = Formula['python@3.8'].opt_bin / 'python3'
+    python3 = Formula['python@3.9'].opt_bin / 'python3'
     system python3, *Language::Python.setup_install_args(prefix)
     system python3, '-m', 'moirai', '--install'
   end
