@@ -1,11 +1,11 @@
 cask 'lachesis' do
-  version '1.3.5'
+  version '1.3.6'
 
   if Hardware::CPU.intel?
-    sha256 '9d8dc153d39b4a2fa5643688b20c3be5eb8308e855b80c34a7a7603fdd0a9e42'
+    sha256 '37742668407f540ca21d4e3a22965e22b45e0cfecf2c12a5c2a38042e629308e'
     url "https://github.com/acristoffers/Lachesis/releases/download/v#{version}/Lachesis-#{version}.dmg"
   else
-    sha256 'b3e7061206a1316477ecef8ec87be122f4f54e3942d6a659a5bb202a33a276f8'
+    sha256 'b984af0e847bbd2a530511df1498eb6746ef70ce9e661f314d624e9758f13b57'
     url "https://github.com/acristoffers/Lachesis/releases/download/v#{version}/Lachesis-#{version}-arm64.dmg"
   end
 
