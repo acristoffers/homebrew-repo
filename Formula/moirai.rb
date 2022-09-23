@@ -1,9 +1,9 @@
 class Moirai < Formula
   desc 'Control platform server (Lachesis backend)'
   homepage 'https://github.com/acristoffers/moirai'
-  url 'https://files.pythonhosted.org/packages/a9/f1/e7fdd3c86beb58043383ee43479492dda53253a7bb088f73a5abc7f36633/moirai-1.3.18.tar.gz'
-  version '1.3.18'
-  sha256 'd1463ef74555c1c7c9429b6409927e3bc21ecafd45c3546c050b8c22941e9246'
+  url 'https://files.pythonhosted.org/packages/85/0c/5b98fd25d7716d8a22334df032ded2af2ff755c66aa1f48d2d986617977d/moirai-1.3.23.tar.gz'
+  version '1.3.23'
+  sha256 '0b89dd7de207e2359bc46f794f0bd081f92e6ace8c719d9c13c9feb9ee3661b0'
   license 'mit'
 
   depends_on 'python@3' => :build
@@ -12,7 +12,7 @@ class Moirai < Formula
   depends_on 'snap7'
 
   def install
-    python3 = Formula['python@3.9'].opt_bin / 'python3'
+    python3 = Formula['python@3'].opt_bin / 'python3'
     system python3, *Language::Python.setup_install_args(prefix)
     system python3, '-m', 'moirai', '--install'
   end
