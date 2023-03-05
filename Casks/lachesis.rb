@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 cask 'lachesis' do
-  version '1.3.7'
+  version '1.3.10'
 
   if Hardware::CPU.intel?
-    sha256 '28a6f56dd9052d40efe6dadead9c107f412505ac0cfb6efcb439a7843156b393'
+    sha256 'dcd9fa0a34353496c12a1dfee253b93d3e947a80e36880dbd3a23db13acc3f5e'
     url "https://github.com/acristoffers/Lachesis/releases/download/v#{version}/Lachesis-#{version}.dmg"
   else
-    sha256 'e3fca7c13b907d1c3e09349b0925b584448a1333477e55cbfa100dccd3d95ece'
+    sha256 'abdd7c62ac62173c36dbc5705f6fcc7d14d6416784c191fa1006147ab8d3a8b2'
     url "https://github.com/acristoffers/Lachesis/releases/download/v#{version}/Lachesis-#{version}-arm64.dmg"
   end
 
