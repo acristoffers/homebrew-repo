@@ -11,7 +11,10 @@ cask 'lachesis' do
     url "https://github.com/acristoffers/Lachesis/releases/download/v#{version}/Lachesis-#{version}-arm64.dmg"
   end
 
-  appcast 'https://github.com/acristoffers/lachesis/releases.atom'
+  livecheck do
+    url 'https://github.com/acristoffers/Lachesis/releases.atom'
+    strategy :sparkle
+  end
   name 'Lachesis'
   homepage 'https://github.com/acristoffers/Lachesis'
 
