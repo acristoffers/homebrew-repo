@@ -1,9 +1,9 @@
 class Moirai < Formula
   desc 'Control platform server (Lachesis backend)'
   homepage 'https://github.com/acristoffers/moirai'
-  url 'https://files.pythonhosted.org/packages/5b/0a/db382b48bfd7b1e083b4ab81e766d998ce7d2c69ef6f80bbb87e4ab11214/moirai-1.3.26.tar.gz'
-  version '1.3.25'
-  sha256 'ea193d413332eafccb2f08ad867310c9d05313368afd88caa449e2a8ce982d1c'
+  url 'https://files.pythonhosted.org/packages/01/3c/18b9ff3f052e3cb9067a799151d29761d8dd4c6fff554d1a1fb00dedcd07/moirai-1.3.29.tar.gz'
+  version '1.3.29'
+  sha256 'f69da3155858f0d1ecda9325a60a108b432c5ec7ea6a79e7b2998c60fe3d3911'
   license 'mit'
 
   depends_on 'python@3' => :build
