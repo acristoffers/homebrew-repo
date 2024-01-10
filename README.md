@@ -5,7 +5,7 @@ To install the formulas on this repository:
 ```bash
 brew tap acristoffers/repo
 brew install moirai
-brew cask install moirai
+brew cask install lachesis
 ```
 
 The `brew fixlinks` command will relink formulas which are marked as linked but
